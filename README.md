@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=QrSR1fm9JwA
 
 
 * rest  
-1.Через mockMVC.perform(...).andExpect(jsonPatch) (https://www.youtube.com/watch?v=N_e8qcYzHIA)    
+1.Через mockMVC.perform(...).andExpect(jsonPatch(...)...) (https://www.youtube.com/watch?v=N_e8qcYzHIA)    
 2.Через TestRestTemplate с обыными запросами, маппингом в объекты и проверкой полученного результата (https://www.baeldung.com/spring-boot-testresttemplate).  
 [RestIntegrationTest()](src/test/java/com/example/learntest/RestIntegrationTest.java)  
 

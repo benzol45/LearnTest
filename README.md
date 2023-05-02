@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=QrSR1fm9JwA
 Стараемся не использовать мок-объекты а давать тестовое окружение, максимально близкое к реальному (@TestPropertySource).  
 * web  (https://www.youtube.com/watch?v=Lnc3o8cCwZY https://spring.io/guides/gs/testing-web/)  
 Гасить SS @AutoConfigureMockMvc(addFilters=false) - отключит все фильтры, но сам SS работает.  
-Что бы подкинуть нужного пользователя @WithMockUser или если надо полноценный UserDetails @WithUserDetails подробно (https://stackoverflow.com/questions/15203485/spring-test-security-how-to-mock-authentication)
+Что бы подкинуть нужного пользователя @WithMockUser или если надо полноценный UserDetails @WithUserDetails подробно (https://stackoverflow.com/questions/15203485/spring-test-security-how-to-mock-authentication , https://eliux.github.io/java/spring/testing/how-to-mock-authentication-in-spring/)  
 Проверять на странице у конкретного поля по xPath:  
 ```.andExpect(xpath("путь к объекту в xpath").string("значение поля")) ```    
 ```.andExpect(xpath("путь к объекту в xpath").nodeCount("сколько таких элементов должно быть")) ```  
